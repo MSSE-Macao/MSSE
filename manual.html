@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<title>MSSE 網站管理手冊</title>
+<style>
+body {
+  font-family: Arial;
+  line-height: 1.8;
+  background:#fafafa;
+  padding:20px;
+}
+h1,h2 {
+  color:#e75480;
+}
+.section {
+  background:white;
+  padding:20px;
+  margin-bottom:20px;
+  border-radius:10px;
+  box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+.code {
+  background:#f4f4f4;
+  padding:10px;
+  border-radius:6px;
+  font-family: monospace;
+  overflow-x:auto;
+}
+.tip {
+  background:#fff3cd;
+  padding:10px;
+  border-radius:6px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>📘 MSSE 網站管理圖解手冊</h1>
+
+<div class="section">
+<h2>🧭 一、網站結構</h2>
+<p>網站主要由以下部分組成：</p>
+
+<ul>
+<li><b>index.html</b>（首頁）</li>
+<li><b>js/events.js</b>（所有活動資料）</li>
+<li><b>data/home.json</b>（首頁精選活動）</li>
+<li><b>images/events</b>（活動圖片）</li>
+<li><b>docs</b>（PDF文件）</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>🟢 二、如何新增活動（最重要）</h2>
+
+<h3>Step 1：上傳圖片</h3>
+<p>放入：</p>
+<div class="code">images/events/event3.jpg</div>
+
+<h3>Step 2：修改 events.js</h3>
+<div class="code">
+{
+id: "event3",
+title: "新活動名稱",
+date: "2026-08-01",
+desc: "活動內容",
+image: "images/events/event3.jpg",
+link: "https://報名連結",
+status: "upcoming"
+}
+</div>
+
+<div class="tip">✔ status: upcoming（未來） / past（過往）</div>
+
+</div>
+
+<div class="section">
+<h2>🟡 三、首頁精選活動</h2>
+
+<p>修改：</p>
+<div class="code">data/home.json</div>
+
+<div class="code">
+{
+"title": "新活動",
+"image": "images/events/event3.jpg",
+"link": "event-detail.html?id=event3"
+}
+</div>
+
+</div>
+
+<div class="section">
+<h2>🟣 四、更新會訊 PDF</h2>
+
+<p>1️⃣ 放入 docs 資料夾</p>
+<p>2️⃣ 修改 newsletter.html</p>
+
+</div>
+
+<div class="section">
+<h2>🔵 五、GitHub 更新方法</h2>
+
+<ol>
+<li>進入 GitHub</li>
+<li>打開檔案</li>
+<li>按 ✏️ Edit</li>
+<li>修改內容</li>
+<li>按 Commit changes</li>
+</ol>
+
+<p>👉 約10–30秒後網站會自動更新</p>
+
+</div>
+
+<div class="section">
+<h2>⚠️ 六、常見錯誤</h2>
+
+<ul>
+<li>圖片名稱大小寫錯誤 ❌</li>
+<li>JSON 漏逗號 ❌</li>
+<li>圖片路徑錯誤 ❌</li>
+</ul>
+
+</div>
+
+<div class="section">
+<h2>🎯 七、日常管理流程</h2>
+
+<ol>
+<li>上傳圖片</li>
+<li>修改 events.js</li>
+<li>修改 home.json（如需要）</li>
+<li>Commit</li>
+</ol>
+
+</div>
+
+</body>
+</html>

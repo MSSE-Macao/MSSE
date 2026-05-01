@@ -6,19 +6,18 @@
 },
 
 "news": [
-"性教育親子講座（2026年5月）",
-"教師培訓工作坊（2026年6月）",
-"教師培訓工作坊（2026年7月）"
+"「家倍愛」家庭性教育活動（2025年8月）",
+"E世代的同行秘笈——網友篇（2024年12月）"
 ],
 
 "events": [
 {
-"title": "親子性教育工作坊",
+"title": "「家倍愛」家庭性教育活動",
 "image": "images/event1.jpg",
  "link": "event-detail.html?id=event1"
 },
 {
-"title": "教師培訓講座",
+"title": "E世代的同行秘笈——網友篇",
 "image": "images/event2.jpg",
  "link": "event-detail.html?id=event2"
 }

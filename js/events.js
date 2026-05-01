@@ -1,42 +1,18 @@
 var data = [
 {
 id: "event1",
-title: "親子性教育工作坊",
-date: "2026-05-10",
-desc: "透過互動活動學習健康性觀念",
+title: "家倍愛」家庭性教育活動",
+date: "2025-09",
+desc: "澳門明愛泉仁樂家庭綜合服務中心將於9-10月期間舉辦「家倍愛」家庭性教育活動",
 image: "images/events/event1.jpg",
 link: "https://forms.gle/xxxx",
 status: "upcoming"
 },
 {
 id: "event2",
-title: "教師培訓講座",
-date: "2026-03-01",
-desc: "提升教學技巧與課程設計",
-image: "images/events/event2.jpg",
-status: "past",
-gallery: [
-"images/events/e2_1.jpg",
-"images/events/e2_2.jpg"
-]
-},
-{
-id: "event3",
-title: "教師培訓講座",
-date: "2026-03-01",
-desc: "提升教學技巧與課程設計",
-image: "images/events/event2.jpg",
-status: "past",
-gallery: [
-"images/events/e2_1.jpg",
-"images/events/e2_2.jpg"
-]
-},
-{
-id: "event4",
-title: "教師培訓講座",
-date: "2026-03-01",
-desc: "提升教學技巧與課程設計",
+title: "E世代的同行秘笈——網友篇",
+date: "2024-12-14",
+desc: "澳門性教育學會又舉辦會員培訓了！",
 image: "images/events/event2.jpg",
 status: "past",
 gallery: [

@@ -6,7 +6,7 @@ date: "2025-09",
 desc: "澳門明愛泉仁樂家庭綜合服務中心將於9-10月期間舉辦「家倍愛」家庭性教育活動",
 image: "images/events/event1.jpg",
 link: "https://forms.gle/xxxx",
-status: "upcoming"
+status: "past"
 },
 {
 id: "event2",
@@ -19,6 +19,16 @@ gallery: [
 "images/events/e2_1.jpg",
 "images/events/e2_2.jpg"
 ]
+},
+{
+id: "event3",
+title: "「青少年親密健康關係-教材應用與AI工具教學應用」培訓",
+date: "2026-6-6",
+desc: `🗣️💥性教育專業培訓又來了！💥
+青少年健康親密關係教什麼？如何教？又如何運用 AI 工具進行教學？🤔
+🎈歡迎報名參加由澳門性教育學會舉辦的「青少年親密健康關係－教材應用與AI工具教學應用」培訓⭐️，詳情見活動海報。`,
+image: "images/events/event3.jpg",
+status: "upcoming"
 }
 ];
 

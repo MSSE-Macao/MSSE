@@ -6,20 +6,21 @@
 },
 
 "news": [
+"「青少年親密健康關係－教材應用與AI工具教學應用」培訓（2026年6月）",
 "「家倍愛」家庭性教育活動（2025年8月）",
 "E世代的同行秘笈——網友篇（2024年12月）"
 ],
 
 "events": [
 {
+"title": "「青少年親密健康關係－教材應用與AI工具教學應用」培訓",
+"image": "images/event3.jpg",
+ "link": "event-detail.html?id=event3"
+},
+{
 "title": "「家倍愛」家庭性教育活動",
 "image": "images/event1.jpg",
  "link": "event-detail.html?id=event1"
-},
-{
-"title": "E世代的同行秘笈——網友篇",
-"image": "images/event2.jpg",
- "link": "event-detail.html?id=event2"
 }
 ],
 

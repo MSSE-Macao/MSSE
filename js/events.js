@@ -28,7 +28,7 @@ desc: `🗣️💥性教育專業培訓又來了！💥
 青少年健康親密關係教什麼？如何教？又如何運用 AI 工具進行教學？🤔
 🎈歡迎報名參加由澳門性教育學會舉辦的「青少年親密健康關係－教材應用與AI工具教學應用」培訓⭐️，詳情見活動海報。`,
 image: "images/events/event3.jpg",
-link: "https://docs.google.com/forms/d/e/1FAIpQLSfcNssDkkTZWOisrKNV0Hjn6hEIK8aGJC4VeCx_LRTGgdxqsQ/viewform"
+link: "https://docs.google.com/forms/d/e/1FAIpQLSfcNssDkkTZWOisrKNV0Hjn6hEIK8aGJC4VeCx_LRTGgdxqsQ/viewform?usp=send_form",
 status: "upcoming"
 }
 ];

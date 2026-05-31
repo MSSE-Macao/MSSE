@@ -53,12 +53,23 @@ html += '<h3 onclick="goDetail(\'' + e.id + '\')">' + e.title + '</h3>';
 html += "<p class='date'>📅 " + e.date + "</p>";
 html += "<p>" + e.desc + "</p>";
 
-if(e.status === "upcoming"){
-if(e.link){
-html += "<a href='" + e.link + "' class='button' target='_blank'>報名</a>";
+//if(e.status === "upcoming"){
+//if(e.link){
+//html += "<a href='" + e.link + "' class='button' target='_blank'>報名</a>";
+//}
+//html += "</div></div>";
+//upcomingHTML += html;
+
+
+ if(e.status === "upcoming" && e.link){
+html += "<br><a href='" + e.link + "' class='button' target='_blank'>立即報名</a>";
 }
+//html += "<br><br><a href='events.html' class='button'>← 返回活動</a>";
+//    document.getElementById("detail").innerHTML = html;
 html += "</div></div>";
 upcomingHTML += html;
+
+  
 }
 
 if(e.status === "past"){

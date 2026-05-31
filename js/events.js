@@ -28,6 +28,7 @@ desc: `🗣️💥性教育專業培訓又來了！💥
 青少年健康親密關係教什麼？如何教？又如何運用 AI 工具進行教學？🤔
 🎈歡迎報名參加由澳門性教育學會舉辦的「青少年親密健康關係－教材應用與AI工具教學應用」培訓⭐️，詳情見活動海報。`,
 image: "images/events/event3.jpg",
+link: "https://docs.google.com/forms/d/e/1FAIpQLSfcNssDkkTZWOisrKNV0Hjn6hEIK8aGJC4VeCx_LRTGgdxqsQ/viewform"
 status: "upcoming"
 }
 ];
@@ -53,23 +54,14 @@ html += '<h3 onclick="goDetail(\'' + e.id + '\')">' + e.title + '</h3>';
 html += "<p class='date'>📅 " + e.date + "</p>";
 html += "<p>" + e.desc + "</p>";
 
-//if(e.status === "upcoming"){
-//if(e.link){
-//html += "<a href='" + e.link + "' class='button' target='_blank'>報名</a>";
-//}
-//html += "</div></div>";
-//upcomingHTML += html;
-
-
- if(e.status === "upcoming" && e.link){
-html += "<br><a href='" + e.link + "' class='button' target='_blank'>立即報名</a>";
+if(e.status === "upcoming"){
+if(e.link){
+html += "<a href='" + e.link + "' class='button' target='_blank'>立即報名</a>";
 }
-//html += "<br><br><a href='events.html' class='button'>← 返回活動</a>";
-//    document.getElementById("detail").innerHTML = html;
 html += "</div></div>";
 upcomingHTML += html;
 
-  
+ 
 }
 
 if(e.status === "past"){
